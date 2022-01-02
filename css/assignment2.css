@@ -1,0 +1,171 @@
+/* ---------- css for assignment2 ---------- */
+* {
+  box-sizing: border-box;
+}
+
+/* ---------- container ---------- */
+#container {
+  width: 1400px;
+  height: 1400px;
+  margin: 20px auto;
+}
+
+/* ---------- header ---------- */
+/* logo */
+#header {
+  width: 100%;
+  height: 15%;
+  background-color: rgba(176, 196, 222, 1.0);
+}
+#header #logo {
+  background-color: navy;
+  color: white;
+  float: left;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  font-size: 4rem;
+  padding: 50px 0;
+}
+/* navigation menu */
+#header #nav-menu {
+  background-color: rgba(0, 0, 128, 0.3);
+  height: 80px;
+  width: 800px;
+  float: right;
+  margin-top: 130px;
+}
+#header #nav-menu ul {
+  padding: 0;
+  margin: 0;
+  height: 80px;
+  width: 800px;
+}
+#header #nav-menu ul, #header #nav-menu li {
+  float: left;
+  list-style: none;
+  line-height: 80px;
+  border-left: 2px solid white;
+}
+#header #nav-menu a[href] {
+  text-decoration: none;
+  text-align: center;
+  font-size: larger;
+  color: white;
+  display: block;
+  width: 197px;
+  height: 80px;
+}
+#header #nav-menu .menu-link:hover {
+  background-color: rgba(0, 0, 128, 0.8);
+}
+
+/* ---------- content ---------- */
+#content {
+  width: 100%;
+  margin: 5px 0;
+}
+/* welcome */
+#content article {
+  background-color: rgba(176, 196, 222, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+/* library */
+#library {
+  background-color: rgba(176, 196, 222, 0.2);
+  padding: 10px 10px 10px 100px;
+  margin: 5px 0px;
+}
+#library figure {
+  float: right;
+  padding: 10px;
+  background-color: white;
+}
+#library figure img {
+  width: 400px;
+  height: 300px;
+}
+#library table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+#library th, #library td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+#library tbody tr td:last-child {
+  background-color: lightgrey;
+}
+/* fitness center */
+#fitness {
+  background-color: rgba(176, 196, 222, 0.2);
+  padding: 10px 10px 10px 100px;
+  margin: 5px 0;
+}
+#fitness figure {
+  float: right;
+  padding: 10px;
+  background-color: white;
+}
+#fitness figure img {
+  width: 400px;
+  height: 300px;
+}
+#fitness table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+#fitness th, #fitness td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+#fitness table tr:last-child td:last-child {
+  background-color: lightgrey;
+}
+/* food services */
+#food {
+  background-color: rgba(176, 196, 222, 0.2);
+  padding: 10px 10px 10px 100px;
+  margin: 5px 0;
+}
+#food figure {
+  float: right;
+  padding: 10px;
+  background-color: white;
+}
+#food figure img {
+  width: 400px;
+  height: 300px;
+}
+#food ul, #food ol {
+  padding: 3px;
+  list-style-position: inside;
+}
+#food li {
+  padding: 3px;
+}
+#food .food-location {
+  color: navy;
+  font-size: larger;
+  font-weight: bold;
+}
+#food ol > li {
+  font-style: italic;
+}
+
+/* ----------- footer ---------- */
+#footer {
+  width: 100%;
+  height: 15%;
+  background-color: rgba(176, 196, 222, 0.5);
+  text-align: center;
+}
+#footer span {
+  padding: 70px 0;
+  display: block;
+}
